@@ -1,0 +1,8 @@
+<!--
+  ~ Copyright (c) 2021. Stefan Wärting
+  ~ License https://opensource.org/licenses/MIT  MIT License
+  -->
+
+<resources>
+    <string name="app_name">Perfect android library template</string>
+</resources>

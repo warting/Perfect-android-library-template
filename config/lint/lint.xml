@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2021. Stefan Wärting
+  ~ License https://opensource.org/licenses/MIT  MIT License
+  -->
+
+<lint>
+    <issue id="all">
+        <ignore path="gradlew" />
+    </issue>
+    <issue id="RestrictedApi">
+        <ignore path="build" />
+    </issue>
+    <issue id="SyntheticAccessor">
+        <ignore path="build" />
+    </issue>
+    <issue id="UnknownNullness">
+        <ignore path="build" />
+    </issue>
+    <issue id="LintBaseline" severity="ignore" />
+    <issue id="all" severity="error" />
+</lint>

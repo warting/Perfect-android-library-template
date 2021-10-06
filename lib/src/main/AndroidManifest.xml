@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021. Stefan Wärting
+  ~ License https://opensource.org/licenses/MIT  MIT License
+  -->
+
+<manifest package="se.warting.firebasecompose.core" />
