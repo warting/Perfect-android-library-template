@@ -63,7 +63,7 @@ android {
 
 dependencies {
     implementation(platform("com.google.firebase:firebase-bom:29.0.0"))
-    implementation("androidx.constraintlayout:constraintlayout:2.1.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.2")
     val composeVersion = "1.0.5"
     implementation("androidx.core:core-ktx:1.7.0")
     implementation("androidx.appcompat:appcompat:1.3.1")
