@@ -18,7 +18,7 @@ val PUBLISH_VERSION: String by extra(androidGitVersion.name().replace("v", ""))
 val PUBLISH_ARTIFACT_ID by extra("core")
 
 apply(from = "${rootProject.projectDir}/gradle/publish-module.gradle")
-
+val composeVersion = "1.1.0-beta04"
 android {
     compileSdk = 31
 
@@ -43,7 +43,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.0.3"
+        kotlinCompilerExtensionVersion = composeVersion
     }
 
     kotlinOptions {
@@ -76,7 +76,6 @@ kotlin {
 
 dependencies {
 
-    // val composeVersion = "1.0.3"
     // implementation("androidx.compose.runtime:runtime:$composeVersion")
     // implementation("androidx.compose.ui:ui:$composeVersion")
 
