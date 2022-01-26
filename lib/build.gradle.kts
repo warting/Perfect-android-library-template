@@ -82,7 +82,7 @@ dependencies {
     // val coroutineVersion = "1.5.2"
     // implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutineVersion")
 
-    // implementation("androidx.core:core-ktx:1.6.0")
+    // implementation("androidx.core:core-ktx:1.6.10")
     // implementation("androidx.appcompat:appcompat:1.3.1")
     // implementation("com.google.android.material:material:1.4.0")
     testImplementation("junit:junit:4.13.2")
