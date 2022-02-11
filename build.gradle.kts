@@ -22,7 +22,16 @@ plugins {
     id("io.gitlab.arturbosch.detekt") version "1.19.0"
     id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
     id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.8.0"
+    id("se.premex.ownership") version "0.0.7"
 }
+
+ownership {
+    validateOwnership = true
+    generateGithubOwners = true
+    generateMissingOwnershipFiles = true
+    defaultOwnerForMissingOwnershipFiles = "@warting"
+}
+
 
 apiValidation {
     ignoredProjects.add("app")
