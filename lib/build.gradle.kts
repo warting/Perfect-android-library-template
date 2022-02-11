@@ -5,8 +5,15 @@ plugins {
     id("signing")
     id("org.jetbrains.dokka") version "1.6.10"
     id("com.gladed.androidgitversion") version "0.4.14"
+    id("se.premex.ownership") version "0.0.7"
 }
 
+ownership {
+    validateOwnership = true
+    generateGithubOwners = true
+    generateMissingOwnershipFiles = true
+    defaultOwnerForMissingOwnershipFiles = "@warting"
+}
 
 androidGitVersion {
     tagPattern = "^v[0-9]+.*"

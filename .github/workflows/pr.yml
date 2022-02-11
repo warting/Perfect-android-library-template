@@ -42,7 +42,7 @@ jobs:
           key: gradle-${{ hashFiles('checksum.txt') }}
 
       - name: Run Android checks
-        run: ./gradlew check --stacktrace
+        run: ./gradlew check validateOwnership --stacktrace
 
       - name: Upload reports
         uses: actions/upload-artifact@v2
