@@ -5,7 +5,7 @@ plugins {
     id("signing")
     id("org.jetbrains.dokka") version "1.6.21"
     id("com.gladed.androidgitversion") version "0.4.14"
-    id("se.premex.ownership") version "0.0.7"
+    id("se.premex.ownership") version "0.0.8"
 }
 
 ownership {
