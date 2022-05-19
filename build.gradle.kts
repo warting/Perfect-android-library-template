@@ -21,7 +21,7 @@ plugins {
     id("com.github.ben-manes.versions") version "0.42.0"
     id("io.gitlab.arturbosch.detekt") version "1.20.0"
     id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
-    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.9.0"
+    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.10.0"
     id("se.premex.ownership") version "0.0.8"
 }
 
