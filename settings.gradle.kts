@@ -2,10 +2,18 @@ plugins {
     id("com.gradle.enterprise") version "3.11.3"
 }
 
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+    }
+}
+
+
 buildCache {
     local {
         isEnabled = true
-        directory = File(rootDir, "build-cache")
+        // directory = File(rootDir, "build-cache")
         removeUnusedEntriesAfterDays = 30
     }
     remote<HttpBuildCache> {

@@ -27,11 +27,10 @@ val PUBLISH_ARTIFACT_ID by extra("core")
 apply(from = "${rootProject.projectDir}/gradle/publish-module.gradle")
 val composeVersion = "1.1.0-beta04"
 android {
-    compileSdk = 31
+    compileSdk = 33
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 31
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -73,6 +72,7 @@ android {
         checkGeneratedSources = false
         sarifOutput = file("../lint-results-lib.sarif")
     }
+    namespace = "se.warting.firebasecompose.core"
 }
 
 kotlin {
