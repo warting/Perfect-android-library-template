@@ -19,7 +19,7 @@ buildscript {
 
 plugins {
     id("com.github.ben-manes.versions") version "0.49.0"
-    id("io.gitlab.arturbosch.detekt") version "1.23.1"
+    id("io.gitlab.arturbosch.detekt") version "1.23.2"
     id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
     id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.13.2"
     id("se.premex.ownership") version "0.0.11"
