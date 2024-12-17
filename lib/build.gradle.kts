@@ -3,7 +3,7 @@ plugins {
     id("kotlin-android")
     id("maven-publish")
     id("signing")
-    id("org.jetbrains.dokka") version "1.9.20"
+    id("org.jetbrains.dokka") version "2.0.0"
     id("com.gladed.androidgitversion") version "0.4.14"
     id("se.premex.ownership") version "0.0.11"
 }
